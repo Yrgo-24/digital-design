@@ -1,0 +1,13 @@
+# Ignore everything without an extension.
+*
+!*.*
+!*/
+
+# Don't ignore license files.
+!LICENSE
+
+# Ignore .txt files.
+*.txt
+
+# Ignore .docx files.
+*.docx
