@@ -4,9 +4,12 @@
 Repo för kursen Digital konstruktion med klassen Ela24, vt25.  
 Detta repo innehåller föreläsningsanteckningar, litteratur, övningsuppgifter, tutorials, manualer med mera.
 
+I kursen behandlas klassisk digitalteknik samt digital konstruktion i det hårdvarubeskrivande språket VHDL.
+
 ## Innehåll
 
 Innehållet i detta repo har delats in i kataloger enligt nedan:
+* [`code`](./code/) innehåller hårdvarubeskrivande kod för diverse projekt, exempelvis för konstruktion av mikrodatorer.
 * [`documents`](./documents/) innehåller dokument som behandlar klassisk digitalteknik.
 * [`lectures`](./lectures/) innehåller föreläsnings-planeringar samt anteckningar.
 * [`manuals`](./manuals/) innehåller manualer samt instruktioner relevanta för kursen.
