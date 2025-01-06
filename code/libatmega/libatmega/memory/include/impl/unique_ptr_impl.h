@@ -1,9 +1,9 @@
-/*******************************************************************************
+/**
  * @brief Implementation details of class memory::UniquePtr and associated
  *        factory functions.
  * 
  * @note Don't include this header, use <unique_ptr.h> instead!
- ******************************************************************************/
+ */
 #pragma once
 
 namespace memory 

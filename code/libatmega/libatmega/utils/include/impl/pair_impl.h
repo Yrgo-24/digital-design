@@ -1,8 +1,8 @@
-/*******************************************************************************
+/**
  * @brief Implementation details of class utils::Pair.
  * 
  * @note Don't include this header, use <pair.h> instead!
- ******************************************************************************/
+ */
 #pragma once
 
 namespace utils

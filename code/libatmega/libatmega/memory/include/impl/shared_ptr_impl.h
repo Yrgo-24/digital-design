@@ -1,9 +1,9 @@
-/*******************************************************************************
+/**
  * @brief Implementation details of class memory::SharedPtr and associated
  *        factory functions.
  * 
  * @note Don't include this header, use <shared_ptr.h> instead!
- ******************************************************************************/
+ */
 #pragma once
 
 namespace memory
