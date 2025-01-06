@@ -9,7 +9,7 @@ I kursen behandlas klassisk digitalteknik samt digital konstruktion i det hårdv
 ## Innehåll
 
 Innehållet i detta repo har delats in i kataloger enligt nedan:
-* [`code`](./code/) innehåller hårdvarubeskrivande kod för diverse projekt, exempelvis för konstruktion av mikrodatorer.
+* [`code`](./code/) innehåller kod för diverse projekt, exempelvis för konstruktion av mikrodatorer.
 * [`documents`](./documents/) innehåller dokument som behandlar klassisk digitalteknik.
 * [`lectures`](./lectures/) innehåller föreläsnings-planeringar samt anteckningar.
 * [`manuals`](./manuals/) innehåller manualer samt instruktioner relevanta för kursen.
