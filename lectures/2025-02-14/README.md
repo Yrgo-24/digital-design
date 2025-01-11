@@ -11,10 +11,9 @@
 
 ## Instruktioner
 * Läs 1.2.4 i [1.2 – Talsystem](../../documents/1.2%20-%20Talsystem.pdf) för information om 2-komplement.
-*
-Läs 1.3.4 i [`1.3 - Logiska grindar, kombinatorik och boolesk algebra.pdf`](../../documents/1.3%20-%20Logiska%20grindar,%20kombinatorik%20och%20boolesk%20algebra.pdf) för information om logiska grindnät.
-
-* Bokmärk gärna [`CircuitVerse`](https://circuitverse.org/) i er browser:
+* Läs 1.3.4 i [`1.3 - Logiska grindar, kombinatorik och boolesk algebra.pdf`](../../documents/1.3%20-%20Logiska%20grindar,%20kombinatorik%20och%20boolesk%20algebra.pdf) för information om logiska grindnät.
+* Bokmärk gärna [`CircuitVerse`](https://circuitverse.org/) i er browser.
+* Genomför gärna bifogade [övningsuppgifter](./Övningsuppgifter%202025-02-14.pdf). Lösningsförslag finns [här](./Lösningsförslag%20övningsuppgifter%202025-02-14.pdf).
 
 ## Utvärdering
 * Synpunkter gällande lektionen?
