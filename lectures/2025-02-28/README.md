@@ -16,7 +16,7 @@ instruktioner [här](../../manuals/Installation%20och%20konfiguration%20av%20Qua
 * ***OBS!** En del extra säkerhetsmekanismer har lagts till i Windows 11, vilket kan förhindra att flashning till FPGA-kort.
 Om du har följt instruktionerna punkt till pricka och du ändå inte kan flasha till FPGA-kortet, stäng av `core isolation`
 på din dator.*
-* Läs [Bilaga A](#bilaga-a---nyckelord-i-vhdl) nedan för grundläggande information i VHDL.
+* Läs [Bilaga A](#bilaga-a---grundläggande-koncept-i-vhdl) nedan för information om grundläggande koncept i VHDL.
 * Se gärna min tutorial [Syntes och simulering i VHDL](https://www.youtube.com/watch?v=9ibUE7czpc4&authuser=0), som behandlar just
 syntes (konstruktion) samt simulering av en 3-ingångars XOR-grind i VHDL.
 * Vi kommer använda FPGA-kortet `Terasic DE0`. Kortets manual, som behövs för att ansluta OR-grindens in- och utportar till hårdvara, finns [här](../../manuals/DE0%20User%20ManuaL.pdf).
@@ -27,17 +27,30 @@ syntes (konstruktion) samt simulering av en 3-ingångars XOR-grind i VHDL.
 ## Nästa lektion
 * Övningar grindnät – konstruktion och simulering för hand samt i VHDL.
 
-## Bilaga A - Nyckelord i VHDL
+## Bilaga A - Grundläggande koncept i VHDL
 
-***Notering**: En modul är ett digitalt byggblock med en utsida (`entity`) samt en insida (`architecture`).*
-
-### `entity`
-* `entity` utgör utsidan av en modul (ett digitalt byggblock), där in- och utportar deklareras.  
-* `entity` kan liknas vid ett funktionshuvud i C; man ser vad som skickas in i funktionen och vad 
-som returneras, men man ser inte vad som sker i funktionen.
+### Konceptet modul
+* En modul är ett digitalt byggblock med en in- och utsida:
+    * På utsidan ser man byggblocket som en svart låda och man tänker bara på byggblockets beteende/funktionalitet. 
+    * På insidan ser man vad byggblocket består av.
 
 #### Exempel
-En OR-grind bestående av inportar `a` och `b` samt en utport `x` kan realiseras via en entitet döpt `or_gate`:
+Nedan visas en modul döpt `or_gate`, bestående av inportar `a` och `b` samt en utport `x`:
+
+![Modulen `or_gate`](./images/or_gate_module.png)
+
+### `Entity`
+* En `entity` utgör utsidan av en modul. 
+* På entitetsnivå ses modulen som en svart låda, dvs. man ser endast förhållande mellan in- och utportarna. 
+Den interna implementationen, alltså hur lådan fungerar, bortser man från.
+
+#### Exempel
+
+Modulen `or_gate` har följande utseende på entitetsnivå:
+
+![Entiteten `or_gate`](./images/or_gate_entity.png)
+
+I VHDL kan entiteten `or_gate` implementeras såhär:
 
 ```vhdl
 entity or_gate is  
@@ -46,16 +59,20 @@ entity or_gate is
 end entity;  
 ```
 
-### `architecture`
-* `architecture` utgör insidan av en modul, där modulens beteende/funktionalitet beskrivs.  
-* `architecture` kan därmed tänkas utgöra byggblockets implementationsdetaljer, lite som innehållet inuti en C-funktion.
+### `Architecture`
+* En `architecture` utgör insidan av en modul, där modulens beteende beskrivs.
+* Arkitekturen kan därmed tänkas utgöra byggblockets implementationsdetaljer, alltså innehållet i den svarta lådan.
 * En modul kan ha fler än en arkitektur, exempelvis om man vill möjliggöra att modulen fungerar olika för olika applikationer.
 Det är just därför man har valt att dela upp en modul i `entity` samt `architecture`.
 Oftast har en modul dock endast en arkitektur, vilket kommer vara fallet i denna kurs.
 
 #### Exempel
-Insidan av entiteten `or_gate` kan definieras för att realisera funktionaliteten av en OR-grind via
-en arkitektur döpt `behaviour`:
+
+* Allt inom den röda rektangeln i nedanstående bild utgör arkitekturen för modulen `or_gate`:
+
+![Arkitekturen `or_gate`](./images/or_gate_architecture.png)
+
+I VHDL kan arkitekturen för modulen `or_gate` implementeras såhär:
 
 ```vhdl
 architecture behaviour of or_gate is  
@@ -64,8 +81,10 @@ begin
 end architecture;  
 ```
 
-### `std_logic`
-* `std_logic` utgör en datatyp för signaler som ska kunna anta logiska värden `0` och `1` samt övriga värden som behövs för att realisera  digitala signaler i praktiken, såsom högohmig/tri-state (`Z`), don't care (`-`) med mera.  
+***Notering:** Arkitekturens namn kan väljas godtyckligt.*
+
+### Datatypen `std_logic`
+* Datatypen `std_logic` används signaler som ska kunna anta logiska värden `0` och `1` samt övriga värden som behövs för att realisera  digitala signaler i praktiken, såsom högohmig/tri-state (`Z`), don't care (`-`) med mera.  
 * `std_logic` utgör ett utmärkt val för signaler och variabler som ska tilldelas en eller flera bitar 
 (för fler bitar används datatypen  `std_logic_vector`, vilket är en vektor med bitar).  
 
@@ -78,7 +97,7 @@ library ieee;
 use ieee.std_logic_1164.all;  
 ```
 
-### `process`
+### `Process`
 *  En `process` utgör ett sekventiellt block, vilket innebär att innehållet exekveras sekventiellt (uppifrån och ned),
 alltså en instruktion i taget, så som sker vid mjukvaruprogrammering i C, C++, Python eller andra språk. 
 * Genom att använda flera processer kan saker ske parallellt för ökad prestanda, likt flertrådade mjukvaruprogram.   
@@ -103,7 +122,7 @@ begin
 end architecture;
 ```
 
-### `signal`
+### `Signal`
 * Nyckelordet `signal` används för interna signaler inom en arkitektur, tänk ledningar mellan logiska grindar. 
 * Signaler kan tilldelas ett värde kontinuerligt eller via en `process`.  
 * Signalens värde kan läsas i hela arkitekturen, men tilldelning kan bara ske från en källa. 
