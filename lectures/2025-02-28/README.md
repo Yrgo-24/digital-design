@@ -10,16 +10,23 @@
 * Känna till vanliga nyckelord i VHDL, exempelvis `entity` samt `architecture`.
 
 ## Instruktioner
-* **Innan lektionen:** Ladda ned samt extrahera zip-filen [`quartus_installation.zip`](https://drive.google.com/file/d/1uyzGYdMekGuM_wpcnPHFdsq24aYJb-QC/view?usp=classroom_web&authuser=0) från Classroom.
-* Installation kommer ske under lektionstid. Vill ni genomföra installationen innan dess finns 
-instruktioner [här](../../manuals/Installation%20och%20konfiguration%20av%20Quartus%20Lite%2018.1%20och%20ModelSim.pdf).
-* ***OBS!** En del extra säkerhetsmekanismer har lagts till i Windows 11, vilket kan förhindra att flashning till FPGA-kort.
-Om du har följt instruktionerna punkt till pricka och du ändå inte kan flasha till FPGA-kortet, stäng av `core isolation`
-på din dator.*
+* **Innan lektionen:** Ladda ned samt extrahera en zip-fil innehållande installationsfiler för Quartus:
+    * För er som tänker använda skolans FPGA-kort *(Terasic DE0)*, ladda ned 
+    [`quartus_installation_de0.zip`](https://drive.google.com/file/d/1uyzGYdMekGuM_wpcnPHFdsq24aYJb-QC/view?usp=sharing).  
+    FPGA-kretsen på kortet heter `5CEBA4F23C7`. Kortets manual finns [här](../../manuals/DE0%20User%20ManuaL.pdf).
+    * För er som har införskaffat FPGA-kortet *Terasic DE10-Lite* för privat bruk, ladda ned 
+    [`quartus_installation_de10_lite.zip`](https://drive.google.com/file/d/1LVx9B4PeWuvFn8L5QMJclAARbW7NwMW2/view?usp=drive_link).  
+    FPGA-kretsen på kortet heter `10M50DAF484C7G`. Kortets manual finns [här](../../manuals/DE10-Lite%20User%20Manual.pdf).
+
 * Läs [Bilaga A](#bilaga-a---grundläggande-koncept-i-vhdl) nedan för information om grundläggande koncept i VHDL.
 * Se gärna min tutorial [Syntes och simulering i VHDL](https://www.youtube.com/watch?v=9ibUE7czpc4&authuser=0), som behandlar just
 syntes (konstruktion) samt simulering av en 3-ingångars XOR-grind i VHDL.
-* Vi kommer använda FPGA-kortet `Terasic DE0`. Kortets manual, som behövs för att ansluta OR-grindens in- och utportar till hårdvara, finns [här](../../manuals/DE0%20User%20ManuaL.pdf).
+* Installation av Quartus samt drivrutiner för FPGA-korten kommer ske under lektionstid. Vill ni genomföra installationen innan dess finns 
+instruktioner [här](../../manuals/Installation%20och%20konfiguration%20av%20Quartus%20Lite%2018.1%20och%20ModelSim.pdf).
+* ***OBS!** En del extra säkerhetsmekanismer har lagts till i Windows 11, vilket kan förhindra att flashning till FPGA-kort fungerar.
+Om du har följt instruktionerna punkt till pricka och du ändå inte kan flasha till FPGA-kortet, dirigera till `System settings -> Core isolation` och inaktivera `Memory integrity` på din dator, så som visas nedan:*
+
+![`Memory integrity option`](./images/memory_integrity.png)
 
 ## Utvärdering
 * Vad tar ni med er från dagens lektion?
