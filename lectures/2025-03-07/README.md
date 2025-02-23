@@ -8,6 +8,8 @@
 * Kunna simulera realiserat grindnät via simuleringsmjukvara.
 
 ## Instruktioner
+* Genomför gärna bifogade [övningsuppgifter](./Övningsuppgifter%202025-03-07.pdf) innan lektionen.
+Lösningsförslag finns [här](./Lösningsförslag%20övningsuppgifter%202025-03-07.pdf).
 * Grindnätet som ska konstrueras kommer presenteras i början av lektionen.
 * Undervisning kommer genomföras via en kombination av livekodning samt eget arbete.
 * Vid behov, gå igenom materialet från föregående lektion.
