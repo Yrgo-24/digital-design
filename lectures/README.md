@@ -9,3 +9,4 @@ om elementära nyckelord i VHDL.
 * [2025-03-07](./2025-03-07/) innehåller material gällande en övning, som innefattas konstruktion
 samt simulering av ett grindnät, både för hand samt i VHDL.
 * [2025-03-14](./2025-03-14/) innehåller material gällande konstruktion av AD-omvandlare med prioritetsavkodare.
+* [2025-03-21](./2025-03-21/) innehåller material gällande konstruktion av komparatorer.
