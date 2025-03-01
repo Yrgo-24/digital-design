@@ -1,6 +1,6 @@
 # Anteckningar 2025-02-14
 
-Grindnät samt C-kod från dagens lektion:
+Grindnät samt C-kod från dagens lektion.
 
 ## Realisering av grindnätet för ADAS-systemet
 
