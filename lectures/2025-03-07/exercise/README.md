@@ -42,3 +42,6 @@ Anslut insignaler ABCD till slide-switchar SWITCH[3:0] och utsignaler XYZ till l
 ### 2.1 - Simulering med testbänk i VHDL
 Skapa en testbänk och genomför simulering av hårdvaran i ModelSim för samtliga binära kombinationer av insignaler ABCD.\
 Testkör varje kombination under 10 ns.
+
+## Lösningsförslag
+Lösningsförslag finns [här](./../notes/).
