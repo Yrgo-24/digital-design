@@ -13,7 +13,7 @@ Lösningsförslag finns [här](./Lösningsförslag%20övningsuppgifter%202025-03
 * Beskrivning av grindnätet som ska konstrueras under lektionen finns [här](./exercise/README.md).
 * Undervisning kommer genomföras via en kombination av livekodning samt eget arbete.
 * Vid behov, gå igenom materialet från föregående lektion.
-* Lektionsanteckningar finns i underkatalogen [notes](./notes/).
+* Lektionsanteckningar finns i underkatalogen [notes](./notes/README.md).
 
 ## Utvärdering
 * Vad tar ni med er från dagens lektion?

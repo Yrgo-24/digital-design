@@ -28,7 +28,7 @@ Om du har följt instruktionerna punkt till pricka och du ändå inte kan flasha
 
 ![`Memory integrity option`](./images/memory_integrity.png)
 
-* Lektionsanteckningar finns i underkatalogen [notes](./notes/).
+* Lektionsanteckningar finns i underkatalogen [notes](./notes/README.md).
 
 ## Utvärdering
 * Vad tar ni med er från dagens lektion?
