@@ -13,6 +13,7 @@
 * Sätt gärna ihop prioritetsavkodaren innan lektionen, se bifogade [övningsuppgifter](./Övningsuppgifter%202025-03-14.pdf). 
 Lösningsförslag finns [här](./Lösningsförslag%20övningsuppgifter%202025-03-14.pdf).
 * AD-omvandlaren kommer simuleras i LTSpice.
+* Lektionsanteckningar finns i underkatalogen [notes](./notes/README.md).
 
 ## Utvärdering
 * Vad tar ni med er från dagens lektion?
