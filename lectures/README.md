@@ -11,3 +11,4 @@ samt simulering av ett grindnät, både för hand samt i VHDL.
 * [2025-03-14](./2025-03-14/README.md) innehåller material gällande konstruktion av AD-omvandlare med prioritetsavkodare.
 * [2025-03-21](./2025-03-21/README.md) innehåller material gällande konstruktion av komparatorer.
 * [2025-03-28](./2025-03-28/README.md) innehåller material gällande konstruktion av multiplexers.
+* [2025-04-04](./2025-04-04/README.md) innehåller material gällande konstruktion av adderare.
