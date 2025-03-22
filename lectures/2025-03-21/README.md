@@ -11,8 +11,9 @@
 
 ## Instruktioner
 * Se bifogade [övningsuppgifter](./Övningsuppgifter%202025-03-21.pdf), där komparatorns funktion beskrivs. 
-Testa gärna att realisera grindnätet för komparatorn i CircuitVerse innan lektionen.  
-Lösningsförslag, vilket innefattar både grindnätet samt syntes och simulering i VHDL, kommer läggas upp efter lektionen.
+Testa gärna att realisera grindnätet för komparatorn i CircuitVerse innan lektionen.
+Lösningsförslag finns [här](./Lösningsförslag%20övningsuppgifter%202025-03-21.pdf).
+* Lektionsanteckningar finns i underkatalogen [notes](./notes/README.md).
 
 ## Utvärdering
 * Vad tar ni med er från dagens lektion?
