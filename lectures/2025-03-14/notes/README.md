@@ -8,7 +8,7 @@ Realisering av en 2-bitars AD-omvandlare, bestående av:
 
 Ekvationer för prioritetsavkodarens utsignaler X och Y togs fram med Karnaugh-diagram. Följande ekvationer härleddes:
 
-```bash
+```
 X = A + B
 Y = A + B'C
 ```
