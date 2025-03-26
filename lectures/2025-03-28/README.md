@@ -10,7 +10,7 @@
 * Få mängdträna klassisk digitalteknik samt syntes och simulering i VHDL.
 
 ## Instruktioner
-* Se bifogade [övningsuppgifter](./Övningsuppgifter%202025-03-21.pdf), där konstruktion av multiplexers behandlas. 
+* Se bifogade [övningsuppgifter](./Övningsuppgifter%202025-03-28.pdf), där konstruktion av multiplexers behandlas. 
 Testa gärna att realisera grindnätet i CircuitVerse innan lektionen.  
 Lösningsförslag, vilket innefattar både grindnätet samt syntes och simulering i VHDL, kommer läggas upp efter lektionen.
 
