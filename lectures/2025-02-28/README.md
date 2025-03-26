@@ -114,7 +114,7 @@ alltså en instruktion i taget, så som sker vid mjukvaruprogrammering i C, C++,
 #### Exempel
 Funktionaliteten för OR-grinden ovan hade kunnat realiseras via en `process` döpt `OR_PROCESS` såsom visas nedan.  
 Processen i fråga exekverar vid förändring av någon av insignaler `a` och `b`, vilket implementeras genom 
-att deklarera dessa portar i den så kallade känslighetslistan (innehållet i parentesen efter nyckelordet `or_gate`). 
+att deklarera dessa portar i den så kallade känslighetslistan (innehållet i parentesen efter nyckelordet `process`). 
 Via en `if else`-sats sätts utsignal `x` till hög när `a` eller `b` är hög, annars sätts `x` till `0`:  
 
 ```vhdl
