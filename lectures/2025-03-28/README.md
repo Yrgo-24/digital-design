@@ -12,15 +12,15 @@
 ## Instruktioner
 * Läs [Bilaga A](#bilaga-a---logik-för-en-liten-multiplexer) nedan för information om konstruktion av en enkel multiplexer i VHDL.
 * Se bifogade [övningsuppgifter](./Övningsuppgifter%202025-03-28.pdf), där konstruktion av multiplexers behandlas. 
-Testa gärna att realisera grindnätet i CircuitVerse innan lektionen.  
-Lösningsförslag, vilket innefattar både grindnätet samt syntes och simulering i VHDL, kommer läggas upp efter lektionen.
+Lösningsförslag finns [här](Lösningsförslag%20övningsuppgifter%202025-03-28.pdf).
+* Lektionsanteckningar finns i underkatalogen [notes](./notes/README.md).
 
 ## Utvärdering
 * Vad tar ni med er från dagens lektion?
 
 ## Nästa lektion
 * Konstruktion av adderare för hand samt i VHDL.
-* Övrig tid, påbörjande av system med 7-segmentsdisplayer.
+* Om tid finns, påbörjande av system med 7-segmentsdisplayer.
 
 ## Bilaga A - Logik för en liten multiplexer
 
