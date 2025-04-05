@@ -12,7 +12,8 @@
 ## Instruktioner
 * Se bifogade [övningsuppgifter](./Övningsuppgifter%202025-04-04.pdf), som behandlar konstruktion av heladderare.
 Testa gärna att realisera grindnätet i CircuitVerse innan lektionen.  
-Lösningsförslag, vilket innefattar både grindnätet samt syntes och simulering i VHDL, kommer läggas upp efter lektionen.
+Lösningsförslag finns [här](./Lösningsförslag%20övningsuppgifter%202025-04-04.pdf).
+* Lektionsanteckningar finns i underkatalogen [notes](./notes/README.md).
 
 ## Utvärdering
 * Vad tar ni med er från dagens lektion?
