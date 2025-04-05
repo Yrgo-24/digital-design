@@ -12,7 +12,7 @@
 ## Instruktioner
 * Läs [Bilaga A](#bilaga-a---logik-för-en-liten-multiplexer) nedan för information om konstruktion av en enkel multiplexer i VHDL.
 * Se bifogade [övningsuppgifter](./Övningsuppgifter%202025-03-28.pdf), där konstruktion av multiplexers behandlas. 
-Lösningsförslag finns [här](Lösningsförslag%20övningsuppgifter%202025-03-28.pdf).
+Lösningsförslag finns [här](./Lösningsförslag%20övningsuppgifter%202025-03-28.pdf).
 * Lektionsanteckningar finns i underkatalogen [notes](./notes/README.md).
 
 ## Utvärdering

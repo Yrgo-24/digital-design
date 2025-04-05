@@ -26,7 +26,7 @@ Ekvationerna ovan användes för att realisera multiplexern enligt nedan:
 
 ![Logiskt grindnät](./circuit/mux_4bit.jpeg)
 
-Ovanstående krets kan simuleras genom att öppna filen [mux_4bit.asc](./circuit/mux_4bit.cv) 
+Ovanstående krets kan simuleras genom att öppna filen [mux_4bit.cv](./circuit/mux_4bit.cv) 
 i [CircuitVerse](https://circuitverse.org/simulator).
 
 ## Syntes samt simulering i VHDL
