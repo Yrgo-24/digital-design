@@ -14,3 +14,4 @@ samt simulering av ett grindnät, både för hand samt i VHDL.
 * [2025-04-04](./2025-04-04/README.md) innehåller material gällande konstruktion av adderare.
 * [2025-04-11](./2025-04-11/README.md) innehåller material gällande delkomponenter i VHDL via 
 konstruktion av ett digitalt system innehållande 7-segmentsdisplayer.
+* [2025-04-17](./2025-04-17/README.md) innehåller material gällande D-latchen och D-vippan.
