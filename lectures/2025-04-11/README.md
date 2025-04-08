@@ -9,10 +9,8 @@
 
 ## Instruktioner
 * Se video tutorial gällande delkomponenter i VHDL [här](https://www.youtube.com/watch?v=2_FT-p-BdwE&feature=youtu.be).
-* Motsvarande hårdvarubeskrivande kod skriven i SystemVerilog kan laddas ned för testning och inspiration 
-[här](./systemverilog/README.md).
 * Se bifogade [övningsuppgifter](./Övningsuppgifter%202025-04-11.pdf), som behandlar konstruktion av 
-ett digitalt system innehållande 7-segmentsdisplayer.
+ett digitalt system innehållande 7-segmentsdisplayer. Lösningsförslag läggs upp efter lektionen.
 
 ## Utvärdering
 * Vad tar ni med er från dagens lektion?
