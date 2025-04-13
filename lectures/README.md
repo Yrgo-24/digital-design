@@ -16,3 +16,4 @@ samt simulering av ett grindnät, både för hand samt i VHDL.
 konstruktion av ett digitalt system innehållande 7-segmentsdisplayer.
 * [2025-04-17](./2025-04-17/README.md) innehåller material gällande D-latchen och D-vippan.
 * [2025-04-25](./2025-04-25/README.md) innehåller material gällande flankdetektering med D-vippor för hand.
+* [2025-04-30](./2025-04-30/README.md) innehåller material gällande flankdetektering med D-vippor i VHDL.
