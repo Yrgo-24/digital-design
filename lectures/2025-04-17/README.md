@@ -16,4 +16,5 @@
 * Vad tar ni med er från dagens lektion?
 
 ## Nästa lektion
-* Synkrona processers mall i VHDL.
+* Flankdetektering med D-vippor för toggling av en lysdiod för hand.
+* Information om synkrona processers mall i VHDL.
