@@ -21,3 +21,5 @@ erhålla binärkoden för en hexadecimal siffra 0 - F genom att mata in ett 4-bi
 Två instanser av denna modul används i toppmodulen, en för varje 7-segmentsdisplay. 
 * [display_tb.vhd](./display_tb.vhd) innehåller en testbänk för modulen `display`. I denna testbänk verifieras att 
 binärkoden för en given 7-segmentsdisplay är korrekt för samtliga 4-bitars kombinationer `0b0000` - `0b1111`.
+* [hex_display.qar](./hex_display.qar) utgör en arkiverad projektfil, som kan användas 
+för att direkt öppna projektet, inklusive pins och testbänk, i Quartus.
