@@ -1,7 +1,7 @@
-# Digitalt system med 7-segmentsdisplayer i SystemVerilog
+# Digitalt system med 7-segmentsdisplayer i VHDL
 
 ## Beskrivning 
-Implementering av ett digitalt system döpt `hex_display` i SystemVerilog. Systemets blockschema visas nedan:
+Implementering av ett digitalt system döpt `hex_display` i VHDL. Systemets blockschema visas nedan:
 
 ![Blockschema över projektet `hex_display`](../images/hex_display.png).
 
@@ -15,9 +15,9 @@ Hårdvaran har implementerats enligt nedan:
 
 ## Kod
 Filerna i denna katalog innehåller följande:
-* [hex_display.sv](./hex_display.sv) innehåller konstruktionens toppmodul `hex_display`.
-* [display.sv](./display.sv) innehåller modulen `display`, som möjliggör att man enkelt kan 
+* [hex_display.vhd](./hex_display.vhd) innehåller konstruktionens toppmodul `hex_display`.
+* [display.vhd](./display.vhd) innehåller modulen `display`, som möjliggör att man enkelt kan 
 erhålla binärkoden för en hexadecimal siffra 0 - F genom att mata in ett 4-bitars binärt tal `0b0000` - `0b1111`.\
-Två instanser av denna modul används i toppmodulen, en för varje 7-segmentsdisplay.
-* [display_tb.sv](./display_tb.sv) innehåller en testbänk för modulen `display`. I denna testbänk verifieras 
-att binärkoden för en given 7-segmentsdisplay är korrekt för samtliga 4-bitars kombinationer `0b0000` - `0b1111`.
+Två instanser av denna modul används i toppmodulen, en för varje 7-segmentsdisplay. 
+* [display_tb.vhd](./display_tb.vhd) innehåller en testbänk för modulen `display`. I denna testbänk verifieras att 
+binärkoden för en given 7-segmentsdisplay är korrekt för samtliga 4-bitars kombinationer `0b0000` - `0b1111`.
