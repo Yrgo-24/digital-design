@@ -1,10 +1,10 @@
 # 2025-04-30 – Lektion 13
 
 ## Dagordning
-* Flankdetektering med D-vippor i VHDL.
+* Vidare implementering av flankdetektering med D-vippor för hand samt i VHDL.
 
 ## Mål med lektionen
-* Kunna implementera flankdetektering i VHDL via D-vippor.
+* Kunna implementera flankdetektering för multipla tryckknappar för hand samt i VHDL via D-vippor.
 
 ## Instruktioner
 * Se information om flankdetektering i tredje delen av [denna tutorial](https://youtu.be/utDHdTgZUz0?si=hEZ2e2Uz4J_LVsf8&t=5450).
