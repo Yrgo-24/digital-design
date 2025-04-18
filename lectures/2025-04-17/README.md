@@ -10,11 +10,11 @@
 
 ## Instruktioner
 * Se video tutorial gällande D-latchen och D-vippan i VHDL [här](https://www.youtube.com/watch?v=utDHdTgZUz0&authuser=0).
-* Se bifogade [övningsuppgifter](./Övningsuppgifter%202025-04-17.pdf), som behandlar konstruktion av D-latchen och D-vippan. Lösningsförslag läggs upp efter lektionen.
+* Se bifogade [övningsuppgifter](./Övningsuppgifter%202025-04-17.pdf), som behandlar konstruktion av D-latchen och D-vippan. Lösningsförslag finns [här](./notes/README.md).
 
 ## Utvärdering
 * Vad tar ni med er från dagens lektion?
 
 ## Nästa lektion
-* Flankdetektering med D-vippor för toggling av en lysdiod för hand.
+* Flankdetektering med D-vippor för toggling av en lysdiod.
 * Information om synkrona processers mall i VHDL.
