@@ -10,7 +10,7 @@
 ## Instruktioner
 * Se video tutorial gällande delkomponenter i VHDL [här](https://www.youtube.com/watch?v=2_FT-p-BdwE&feature=youtu.be).
 * Se bifogade [övningsuppgifter](./Övningsuppgifter%202025-04-11.pdf), som behandlar konstruktion av 
-ett digitalt system innehållande 7-segmentsdisplayer. Lösningsförslag finns [här](./vhdl/README.md).
+ett digitalt system innehållande 7-segmentsdisplayer. Lösningsförslag finns [här](./notes/README.md).
 
 ## Utvärdering
 * Vad tar ni med er från dagens lektion?
