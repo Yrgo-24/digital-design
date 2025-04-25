@@ -11,8 +11,7 @@
 ## Instruktioner
 * Se information om flankdetektering i tredje delen av [denna tutorial](https://youtu.be/utDHdTgZUz0?si=hEZ2e2Uz4J_LVsf8&t=5450).
 Videon kommer starta på tiden 01:30:50, vilket är då flankdetekteringsdelen börjar.
-* Se bifogade [övningsuppgifter](./Övningsuppgifter%202025-04-24.pdf). Lösningsförslag läggs upp efter lektionen.
-* Motsvarande kod skriven i SystemVerilog finns [här](./systemverilog/README.md).
+* Se bifogade [övningsuppgifter](./Övningsuppgifter%202025-04-24.pdf). Lösningsförslag finns [här](./notes/README.md).
 
 ## Utvärdering
 * Några synpunkter om dagens föreläsning?
