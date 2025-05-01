@@ -1,7 +1,7 @@
 # Digitalt system med flankdetektering
 
 ## Beskrivning 
-Implementering av ett digitalt system innefattande flankdetektering för toggling av en lysdiod:
+Implementering av ett digitalt system innefattande flankdetektering för toggling av en lysdiod.
 
 Konstruktionen innehållande följande portar:
 * `clock`: Systemklocka, satt till 2 Hz i CircuitVerse, 50 MHz på FPGA-kortet.
@@ -12,7 +12,7 @@ Konstruktionen innehållande följande portar:
 ## Kretsschema
 Konstruktionens kretsschema visas nedan:
 
-![Kretsschema för konstruktionen](./circuit/led_toggle.png).
+![Kretsschema för konstruktionen](./circuit/led_toggle.png)
 
 Ovanstående krets kan simuleras genom att öppna filen [led_toggle.cv](./circuit/led_toggle.cv) 
 i [CircuitVerse](https://circuitverse.org/simulator).
