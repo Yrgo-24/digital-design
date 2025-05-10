@@ -9,8 +9,7 @@
 ## Instruktioner
 * Se min [video tutorial](https://www.youtube.com/watch?reload=9&v=KrssJRgF13I&feature=youtu.be) för information om metastabilitet.
 * En kortfattad introduktion till metastabilitet finns i [Bilaga A](#bilaga-a---kortfattad-information-gällande-metastabilitet) nedan.
-* Se bifogade [övningsuppgifter](./Övningsuppgifter%202025-05-09.pdf). Lösningsförslag läggs upp efter lektionen.
-* Motsvarande kod skriven i SystemVerilog finns [här](./systemverilog/README.md).
+* Se bifogade [övningsuppgifter](./Övningsuppgifter%202025-05-09.pdf). Lösningsförslag finns [här](./notes/README.md).
 
 ## Utvärdering
 * Några synpunkter om dagens föreläsning?
