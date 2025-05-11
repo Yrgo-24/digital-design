@@ -13,11 +13,15 @@ Konstruktionen innehållande följande portar:
 
 Reset-signalen `reset_n` synkroniseras via två D-vippor. Motsvarande synkroniserad reset-signal `reset_s2_n` används sedan i resten av kretsen. Postfix `s2` innebär att signalen i fråga har synkroniserats med två vippor i enlighet med `double flop`-metoden.
 
-Tryckknappen `button_n` synkroniseras via två D-vippor och ytterligare en vippa används för flankdetektering, där `button_s2_n` utgör "nuvarande" insignal och `button_s3_n` utgör "föregående" insignal. Vid nedtryckning (fallande flank) gäller att `button_s2_n` = 0 och `button_s3_n` = 1. Då ettställs signalen `button_pressed_s2` för att indikera knapptryckning.
-När `button_pressed_s2` ettställs togglas lysdioden `led`.
+Tryckknappen `button_n` synkroniseras via två D-vippor och ytterligare en vippa används för flankdetektering, där `button_s2_n` utgör "nuvarande" insignal och `button_s3_n` utgör "föregående" insignal. Vid nedtryckning (fallande flank) gäller att `button_s2_n` = 0 och `button_s3_n` = 1. Då ettställs signalen `button_edge_s2` för att indikera knapptryckning.
+När `button_edge_s2` ettställs togglas lysdioden `led`.
 
 ## Kretsschema
-Konstruktionen kretsschema visas och kan simuleras genom att öppna filen [led_toggle_meta_prev.cv](./circuit/led_toggle_meta_prev.cv) 
+Konstruktionens kretsschema visas nedan:
+
+![Kretsschema för konstruktionen](./circuit/led_toggle_meta_prev.png)
+
+Ovanstående krets kan simuleras genom att öppna filen [led_toggle_meta_prev.cv](./circuit/led_toggle_meta_prev.cv) 
 i [CircuitVerse](https://circuitverse.org/simulator).
 
 ## Syntes samt simulering i VHDL
