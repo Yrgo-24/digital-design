@@ -12,7 +12,7 @@
 ## Instruktioner
 * Se del I (den första timmen) av min [video tutorial](https://youtu.be/v7O0QMHzmo8) för information gällande konstruktion
 av timerkretsar för hand.
-* Se bifogade [övningsuppgifter](./Övningsuppgifter%202025-05-16.pdf). Lösningsförslag läggs upp efter lektionen.
+* Se bifogade [övningsuppgifter](./Övningsuppgifter%202025-05-16.pdf). Lösningsförslag finns [här](./notes/README.md).
 
 ## Utvärdering
 * Några synpunkter om dagens föreläsning?
