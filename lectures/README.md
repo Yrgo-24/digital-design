@@ -19,3 +19,4 @@ konstruktion av ett digitalt system innehållande 7-segmentsdisplayer.
 * [2025-04-30](./2025-04-30/README.md) innehåller vidare material gällande flankdetektering med D-vippor för hand samt i VHDL.
 * [2025-05-09](./2025-05-09/README.md) innehåller information gällande metastabilitetsskydd via `double flop`-metoden.
 * [2025-05-16](./2025-05-16/README.md) innehåller information gällande konstruktion av timerkretsar i hårdvara.
+* [2025-05-23](./2025-05-23/README.md) innehåller information gällande konstruktion av tillståndsmaskiner i VHDL.
