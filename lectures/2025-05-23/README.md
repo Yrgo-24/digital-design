@@ -14,7 +14,7 @@ grundläggande information om tillståndsmaskiner i VHDL.
 * Ladda ned, öppna och kompilera bifogad .qar-fil [fsm.qar](fsm.qar). Denna fil innehåller skelettkod
 för ett projekt döpt `fsm` (`Finite State Machine`).\
 En tillståndsmaskin ska läggas till i detta projekt under lektionens gång.
-* Se bifogade [övningsuppgifter](./Övningsuppgifter%202025-05-23.pdf). Lösningsförslag läggs upp efter lektionen.
+* Se bifogade [övningsuppgifter](./Övningsuppgifter%202025-05-23.pdf). Lösningsförslag finns [här](./notes/README.md).
 
 ## Utvärdering
 * Några synpunkter om dagens föreläsning?
