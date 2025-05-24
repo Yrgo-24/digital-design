@@ -3,7 +3,7 @@
 ## Beskrivning 
 Implementering av ett digitalt system innefattande flankdetektering för toggling av en lysdiod.
 
-Konstruktionen innehållande följande portar:
+Konstruktionen innehåller följande portar:
 * `clock`: Systemklocka, satt till 2 Hz i CircuitVerse, 50 MHz på FPGA-kortet.
 * `reset_n`: Aktivt låg reset-signal från en tryckknapp.
 * `button_n`: Aktivt låg tryckknapp, som används för att toggla lysdioden.

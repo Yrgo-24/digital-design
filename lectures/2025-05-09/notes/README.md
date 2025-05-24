@@ -5,7 +5,7 @@ Implementering av ett digitalt system innefattande flankdetektering för togglin
 Metastabilitetsskydd har lagts till för att säkerhetsställa att samtliga insignaler är stabila
 (0 eller 1) när de används i konstruktionen. När detta genomförs säger man att insignalerna synkroniseras.
 
-Konstruktionen innehållande följande portar:
+Konstruktionen innehåller följande portar:
 * `clock`: Systemklocka, satt till 2 Hz i CircuitVerse, 50 MHz på FPGA-kortet.
 * `reset_n`: Aktivt låg reset-signal från en tryckknapp.
 * `button_n`: Aktivt låg tryckknapp, som används för att toggla lysdioden.

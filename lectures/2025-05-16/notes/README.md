@@ -5,7 +5,7 @@ Implementering av en digital krets, där en timerkrets togglas via en tryckknapp
 * När timern är aktiverad blinkar en lysdiod en gång i sekunden.
 * När timern är inaktiverad hålls lysdioden släckt.
 
-Konstruktionen innehållande följande portar:
+Konstruktionen innehåller följande portar:
 * `clock`: Systemklocka, satt till 2 Hz i CircuitVerse, 50 MHz på FPGA-kortet.
 * `reset_n`: Aktivt låg reset-signal från en tryckknapp.
 * `button_n`: Aktivt låg tryckknapp, som används för att toggla timerkretsen.
