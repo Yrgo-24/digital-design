@@ -22,3 +22,4 @@ konstruktion av ett digitalt system innehållande 7-segmentsdisplayer.
 * [2025-05-23](./2025-05-23/README.md) innehåller information gällande konstruktion av tillståndsmaskiner i VHDL.
 * [2025-06-05](./2025-06-05/README.md) innehåller information gällande arbete med Inlämningsuppgift VI.
 * [2025-06-10](./2025-06-10/README.md) innehåller information gällande arbete med Inlämningsuppgift VI.
+* [2025-06-13](./2025-06-13/README.md) innehåller information gällande arbete med Inlämningsuppgift VI.
